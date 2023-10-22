@@ -37,12 +37,8 @@ python3 manage.py runserver
 ## Authors
 Michael Ho (michaelyho1@gmail.com)
 
-## Version History
-* 0.1
-    * Initial Release
 ## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
+Code released under the [MIT License]()
 
 ## Acknowledgements
 * [README_template](https://gist.github.com/DomPizzie/7a5ff55ffa9081f2de27c315f5018afc)
