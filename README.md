@@ -12,10 +12,6 @@ Here are the core functionalities your solution should address:
 2. Donation Distribution: A feature to log when and how much of the donations are distributed, capturing the type of donation, quantity or amount distributed, and the date of distribution.
 3. Donation Reports: Your solution should have the capacity to generate two types of reports: (1) An inventory report displaying the current status of donations, grouped by type. (2) A donator report, summarizing the total contributions received from each donor.
 
-YouTube source: https://youtu.be/QUsExxncodk?si=TSnLGimYaUun5IYt
-
-Uses an SQLITE database. Each donation/inventory uses the following attributes:
-
 ## Getting Started
 
 ### Installation
@@ -35,7 +31,7 @@ python3 manage.py runserver
 ```
 
 ## Authors
-Michael Ho (michaelyho1@gmail.com)
+Michael Ho (https://github.com/Bearded-Gecko/)
 
 ## License
 Code released under the [MIT License](https://github.com/Bearded-Gecko/open-seattle-ims/blob/master/LICENSE.txt)

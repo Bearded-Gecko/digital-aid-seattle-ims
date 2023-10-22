@@ -154,6 +154,8 @@ cython_debug/
 
 #ignore pycache
 **/__pycache__/
+*.py[cod]
+__pycache__/
 
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
