@@ -2,21 +2,23 @@
 
 Django web application project developed for Open Seattle's asynchronous technical challenge. The application is a light IMS used for tracking donation inventory (add, update, delete) with data visualizations for reporting, using SQLite database.
 
-## Open Seattle Prompt
+### Open Seattle Prompt
 
+Imagine you're tasked with creating a practical solution for a local shelter to manage their donation inventory. This shelter is in need of a user-friendly tool to accurately record and track the inflow and outflow of donations, and to generate insightful reports about their donation management.
 
+Here are the core functionalities your solution should address:
 
-
-
+1. Donation Registration: A feature that allows the shelter staff to record details of the donations, such as the donor's name, type of donation (money, food, clothing, etc.), quantity or amount donated, and the date of the donation.
+2. Donation Distribution: A feature to log when and how much of the donations are distributed, capturing the type of donation, quantity or amount distributed, and the date of distribution.
+3. Donation Reports: Your solution should have the capacity to generate two types of reports: (1) An inventory report displaying the current status of donations, grouped by type. (2) A donator report, summarizing the total contributions received from each donor.
 
 YouTube source: https://youtu.be/QUsExxncodk?si=TSnLGimYaUun5IYt
 
 Uses an SQLITE database. Each donation/inventory uses the following attributes:
 
+## Getting Started
 
-
-
-## Installation
+### Installation
 
 Use the pip package manager [pip](https://pip.pypa.io/en/stable/) to install all of the Python modules and packages listed in the requirements.txt file:
 
@@ -24,36 +26,24 @@ Use the pip package manager [pip](https://pip.pypa.io/en/stable/) to install all
 pip install -r requirements.txt 
 ```
 
-## Usage
+### Executing Program
 
 After installation, run the following command to create a local Django development server instance of the IMS:
 
 ```bash
 python3 manage.py runserver
 ```
-donor_name (string): name of donor
 
+## Authors
+Michael Ho (michaelyho1@gmail.com)
 
-
-item_type (string):
-
-amount (decimal): when adding to a new location this will be positive, when removing from a location this will be negative
-
-location (string): 
-
-date (date): date recorded when item is received, removed, or moved
-
-When transferring inventory from one location to another, requires two entries, one to remove from the current location and another to add to a new location. 
-
-login is capital sensitive
-
-Example
-
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
-
+## Version History
+* 0.1
+    * Initial Release
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
+
+## Acknowledgements
+* [README_template](https://gist.github.com/DomPizzie/7a5ff55ffa9081f2de27c315f5018afc)
+* [YouTube_tutorial](https://youtu.be/QUsExxncodk?si=TSnLGimYaUun5IYt)
