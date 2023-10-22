@@ -1,0 +1,59 @@
+{% extends "../layout.html" %}
+{% block content %}
+<div class="content-section">
+    <div class="row max-auto justify-content-center">
+
+        <div class="card m-4" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title text-center">Donor Name</h5>
+                <div style="font-size: 30px;" class="text-center">
+                    <span><i class="fab fa-product-hunt"></i></span>
+                </div>
+                <h3 class="text-center">{{ inventory.donor_name}}</h3>
+            </div>
+        </div>
+
+        <div class="card m-4" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title text-center">Item Type</h5>
+                <div style="font-size: 30px;" class="text-center">
+                    <span><i class="fab fa-warehouse"></i></span>
+                </div>
+                <h3 class="text-center">{{ inventory.item_type}}</h3>
+            </div>
+        </div>
+
+        <div class="card m-4" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title text-center">Amount</h5>
+                <div style="font-size: 30px;" class="text-center">
+                    <span><i class="fab fa-warehouse"></i></span>
+                </div>
+                <h3 class="text-center">{{ inventory.amount}}</h3>
+            </div>
+        </div>
+
+        <div class="card m-4" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title text-center">Date</h5>
+                <div style="font-size: 30px;" class="text-center">
+                    <span><i class="fas fa-calendar-alt"></i></span>
+                </div>
+                <h3 class="text-center">{{ inventory.date}}</h3>
+            </div>
+        </div>
+
+        <div class="card m-4" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title text-center">Location</h5>
+                <div style="font-size: 30px;" class="text-center">
+                    <span><i class="fas fa-warehouse"></i></span>
+                </div>
+                <h3 class="text-center">{{ inventory.location}}</h3>
+            </div>
+        </div>
+        <a class="btn btn-outline-success btn-sm mb-3" href="{% url 'update_inventory' inventory.id %}">Update Inventory</a>
+        <a class="btn btn-danger btn-sm" href="{% url 'delete_inventory' inventory.id %}">Delete Inventory</a>     
+    </div>
+</div>
+{% endblock %}
