@@ -38,7 +38,7 @@ python3 manage.py runserver
 Michael Ho (michaelyho1@gmail.com)
 
 ## License
-Code released under the [MIT License]()
+Code released under the [MIT License](https://github.com/Bearded-Gecko/open-seattle-ims/blob/master/LICENSE.txt)
 
 ## Acknowledgements
 * [README_template](https://gist.github.com/DomPizzie/7a5ff55ffa9081f2de27c315f5018afc)
