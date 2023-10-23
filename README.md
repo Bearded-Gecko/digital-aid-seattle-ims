@@ -27,8 +27,21 @@ pip install -r requirements.txt
 After installation, run the following command to create a local Django development server instance of the IMS:
 
 ```bash
-python3 manage.py runserver
+python manage.py runserver
 ```
+
+Then create a superuser for administrative access:
+
+```bash
+python manage.py createsuperuser
+```
+
+Fill in answers for Username, Email address, and Password. Then create a new user to access the IMS through the superadmin interface:
+ 1. Log in at "<local port url>/admin" with superuser username and password
+ 2. Click Users
+ 3. Click "Add User +"
+ 4. Set up username and password for user
+ 5. navigate to "<local port url>" and log in
 
 ## Authors
 Michael Ho (https://github.com/Bearded-Gecko/)
