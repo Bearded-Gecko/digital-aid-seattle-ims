@@ -37,11 +37,11 @@ python manage.py createsuperuser
 ```
 
 Fill in answers for Username, Email address, and Password. Then create a new user to access the IMS through the superadmin interface:
- 1. Log in at "<local port url>/admin" with superuser username and password
+ 1. Log in at "local port url/admin" with superuser username and password
  2. Click Users
  3. Click "Add User +"
  4. Set up username and password for user
- 5. navigate to "<local port url>" and log in
+ 5. navigate to "local port url" and log in
 
 ## Authors
 Michael Ho (https://github.com/Bearded-Gecko/)
