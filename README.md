@@ -1,8 +1,8 @@
-# Open Seattle Donation Inventory Management Software (IMS)
+# Digital Aid Seattle (DAS) Donation Inventory Management Software (IMS)
 
-Django web application project developed for Open Seattle's asynchronous technical challenge. The application is a light IMS used for tracking donation inventory (add, update, delete) with data visualizations for reporting, using SQLite database.
+Django web application project developed for DAS's asynchronous technical challenge. The application is a light IMS used for tracking donation inventory (add, update, delete) with data visualizations for reporting, using SQLite database.
 
-### Open Seattle Prompt
+### DAS Prompt
 
 Imagine you're tasked with creating a practical solution for a local shelter to manage their donation inventory. This shelter is in need of a user-friendly tool to accurately record and track the inflow and outflow of donations, and to generate insightful reports about their donation management.
 
